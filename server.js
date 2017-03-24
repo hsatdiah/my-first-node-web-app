@@ -36,7 +36,7 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
   res.render('home.hbs', {
     pageTitle: 'Homepage',
-    welcomeMessage: 'Милости прошу к нашему шалашу',
+    welcomeMessage: 'Welcome to my first heroku deployed app!',
   });
 });
 app.get('/about', (req, res) => {
